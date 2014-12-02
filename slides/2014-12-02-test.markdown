@@ -1,0 +1,50 @@
+---
+title: Habits
+date: December 2, 2014
+tags: slide
+description: Testing slide
+---
+
+% Habits
+% Wei Shi
+% December 2, 2014
+
+# In the morning
+
+## Getting up
+
+- Go back to sleep again
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink milk
+
+# At noon
+
+## Exercise
+
+- swimming
+
+## Dinner
+
+- Eat food for two person
+- Drink soup
+
+# In the afternoon
+
+## Meditation
+
+- How to be a geek
+
+------------------
+
+![picture of GNU](/images/GNU_white.jpg)
+
+# In the evening
+
+## Going to sleep
+
+- Get in bed
+- Count sheep

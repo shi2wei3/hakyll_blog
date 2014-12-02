@@ -1,0 +1,238 @@
+/* Official OSU print color palette.
+ * http://oregonstate.edu/brand/color-palette
+ */
+/* Official OSU web color palette.
+ * http://oregonstate.edu/brand/color-palette-web
+ */
+/* Unofficial colors used on official color palette site. :)
+*/
+/* Margins and positioning */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#page {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+#content {
+  padding-bottom: 180px;
+}
+#header {
+  margin-bottom: 30px;
+}
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.break {
+  clear: both;
+}
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0;
+}
+/* Fonts and colors */
+body {
+  background-color: #ffffff;
+  color: #373737;
+  font-family: "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.4;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 30px;
+  font-family: Ubuntu, "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+h1 {
+  color: #373737;
+}
+h2,
+h3,
+h4 {
+  color: #373737;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 150%;
+}
+h3 {
+  font-size: 125%;
+}
+h4 {
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: #f37321;
+}
+pre,
+code {
+  font-family: Menlo, "Lucida Console", Courier, monospace;
+  font-size: 90%;
+}
+pre {
+  margin-left: 2em;
+}
+#header {
+  background-color: #373737;
+}
+ul.nav-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+.nav-elem a {
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  color: #eeeeee;
+  font-family: Ubuntu, "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+.nav-head a {
+  padding-left: 0px;
+  padding-right: 30px;
+  color: #eeeeee;
+}
+.nav-elem a:active,
+.nav-elem a:hover,
+.nav-elem a:focus {
+  background-color: #cc0000;
+}
+.nav-head a:active,
+.nav-head a:hover,
+.nav-head a:focus {
+  background-color: #373737;
+}
+.nav-active a {
+  background-color: #373737;
+}
+li.nav-left {
+  float: left;
+}
+li.nav-right {
+  float: right;
+}
+#footer {
+  background-color: #373737;
+  color: #eeeeee;
+  font-size: 12px;
+}
+.foot-block {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.foot-about {
+  width: 260px;
+  margin-right: 20px;
+}
+.foot-map {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.foot-head {
+  font-weight: 600;
+  margin-bottom: .25em;
+}
+.foot-list {
+  padding: 0;
+  margin-top: 0;
+}
+.foot-item {
+  display: block;
+}
+.foot-contact {
+  margin-top: 1em;
+}
+.foot-madeby {
+  position: absolute;
+  bottom: 0;
+  text-align: right;
+  right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10px;
+}
+.img-me {
+  float: left;
+  max-width: 200px;
+  margin-right: 20px;
+}
+.big-name {
+  margin-bottom: .33em;
+}
+.affiliation {
+  margin-top: 1em;
+}
+.contact {
+  margin-top: 1em;
+}
+.news-list {
+  padding: 0;
+}
+li.news-item {
+  display: block;
+}
+.news-title {
+  font-weight: bold;
+  margin-right: .25em;
+}
+.news-date {
+  margin-left: .25em;
+}
+.news-body p {
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+}
+.pub-list {
+  padding: 0;
+}
+li.pub-item {
+  display: block;
+  margin-top: 1em;
+}
+.pub-block {
+  display: inline-block;
+  vertical-align: text-top;
+}
+.pub-title {
+  font-weight: bold;
+}
+.pub-best {
+  font-weight: bold;
+}
+.pub-venue-name {
+  font-style: italic;
+}
+.pub-links {
+  font-size: 90%;
+  font-weight: 600;
+}
+.pub-abstract {
+  font-size: 90%;
+  display: none;
+}
+.ref-list:not(.resume) {
+  counter-reset: refCounter;
+}
+.ref-list li {
+  margin-top: 1em;
+}
